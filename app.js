@@ -3,7 +3,7 @@ app.controller("MyFirstController", function($scope) {
   $scope.name = "Severus Snape";
 })
 
-var yearsInCentury = 100
+var yearsInCentury = 100;
 var daysInYear = 365;
 var hoursInDay = 24;
 var minutesInHour = 60;
@@ -14,4 +14,5 @@ var secondsInCentury = secondInMinute * minutesInHour * hoursInDay * daysInYear 
 app.controller("ExercisesController", function($scope) {
   $scope.FavColor = "red";
   $scope.secondsInCentury = secondsInCentury;
+  $scope.currentTime = Date.now();
 })
